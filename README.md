@@ -8,6 +8,10 @@ I maintain this repo as *my* dotfiles.
 - [Cătălin Mariș](https://github.com/alrra) and his [dotfiles repository](https://github.com/alrra/dotfiles).
 - [Paul Irish](https://github.com/paulirish) and his [dotfiles repository](https://github.com/paulirish/dotfiles).
 
+## Related
+
+- [Setup a new  MacBook Pro](https://github.com/antleblanc/setup).
+
 ## Author
 
 [Antoine Leblanc](http://antleblanc.me) — [@antleblanc](https://twitter.com/antleblanc)
