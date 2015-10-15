@@ -1,0 +1,42 @@
+[alias]
+    c = commit
+    d = diff
+    g = log --graph --pretty=custom # Show custom graph
+    l = log --pretty=custom         # Show custom log
+    s = status
+
+[color "branch"]
+    current = green bold
+    local = green
+    remote = yellow
+
+[color "diff"]
+    frag = magenta
+    meta = yellow
+    new = green
+    old = red
+
+[color "status"]
+    added = green reverse
+    changed = yellow reverse
+    untracked = red reverse
+
+[core]
+    abbrev = 12
+    attributesfile = ~/.gitattributes
+    autocrlf = input
+    editor = vim
+    excludesfile = ~/.gitignore
+
+[pretty]
+    custom = "%C(magenta)%h%C(red)%d %C(yellow)%ar %C(green)%s %C(yellow)(%an)"
+    #                     │        │            │            │             └─ author name
+    #                     │        │            │            └─ message
+    #                     │        │            └─ date (relative)
+    #                     │        └─ decorations (branch, heads or tags)
+    #                     └─ hash (abbreviated)
+
+[push]
+    # Make `git push` automatically push relevant
+    # annotated tags when pushing branches out
+    followTags = true
