@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Set local aliases
+
+alias s="cd ~/Sites"
+alias c="cd ~/Code"
+alias cask="brew cask"
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Set PATH additions
+
+PATH="$HOME/bin:$PATH"
+
+export PATH
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Node version manager.
+
+export NVM_DIR="/Users/antleblanc/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm

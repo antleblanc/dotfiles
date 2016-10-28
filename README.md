@@ -2,6 +2,22 @@
 
 I maintain this repo as *my* dotfiles.
 
+## Installation
+
+```sh
+$ cd ~/Code
+$ git clone git@github.com:antleblanc/dotfiles.git
+```
+
+You can now create symbolic links for each of those files.
+
+```sh
+$ cd ~
+$ ln -s ~/Code/dotfiles/bashrc .bashrc
+$ ln -s ~/Code/dotfiles/bash_profile .bash_profile
+$ …
+```
+
 ## Resources
 
 - [Mathias Bynens](https://github.com/mathiasbynens) and his [dotfiles repository](https://github.com/mathiasbynens/dotfiles).
