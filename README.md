@@ -30,4 +30,4 @@ $ …
 
 ## Author
 
-[Antoine Leblanc](http://antleblanc.me) — [@antleblanc](https://twitter.com/antleblanc)
+[Antoine Leblanc](https://antleblanc.me) — [@antleblanc](https://twitter.com/antleblanc)
